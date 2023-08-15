@@ -18,3 +18,11 @@ Based on this figma design https://www.figma.com/file/QrSF2bkEEM6RtLMp66BqCq/Woo
    ```bash
    git clone https://github.com/cosmasken/-woo-landing-page.git
 
+2. Install Dependencies:
+   ```bash
+   npm install or yarn add
+
+3. Start the development server:
+    ```bash
+    npm run dev
+
