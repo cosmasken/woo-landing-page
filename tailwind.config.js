@@ -1,17 +1,14 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+module.exports = {
+  content: ["./src/*.html"],
   theme: {
     extend: {
-      fontFamily: {
-        'roboto': ['Roboto', 'Sans-serif']
-      },
-      colors:{
-      primary: '#272D4E',
-        purple :'#7854F7'
+      colors: {
+        'daily-dev-tips': "#F89283"
       }
     },
   },
+  variants: {
+    extend: {},
+  },
   plugins: [],
 }
-
